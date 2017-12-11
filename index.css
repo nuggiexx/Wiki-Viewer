@@ -1,0 +1,57 @@
+#container { /*another background color in case current fails for whatever reason #FAF0E6, OR oldlace*/
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
+  min-height: 100vh;
+}
+
+#firstDiv {
+  text-align: center;
+  font-family: 'Century Gothic', sans-serif;
+  padding-top: 15%;
+}
+
+#theW {
+  padding-bottom: 5%;
+  font-size: 280%;
+}
+
+#manualSearch {
+  padding-bottom: 5%;
+  font-size: 170%;
+}
+
+ul {
+  padding-top: 2%;
+}
+
+input[type=text] {
+  width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #FAF0E6;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 60%;
+}
+
+#randomSearch {
+  font-size: 170%;
+  padding-bottom: 5%;
+}
+
+.theButtons {
+  background-color: #FAF0E6;
+}
+
+#name {
+  padding-bottom: 2%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wiki viewer</title>
+    <link rel='stylesheet' type='text/css' href='./index.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id='container'>
+      <div id='firstDiv'>
+        <p id='theW'>Welcome to my Wiki Search Page</p>
+        <div id='manualSearch'>
+          <p id="wiki-header">You can search here for anything you'd like</p>
+          <div>
+            <input type="text" id="searchInfo" name="search" placeholder="Search..."/>
+            <button class="theButtons" onclick=loadData()><img src="https://res.abc.net.au/bundles/2.0.9/images/icon-search-grey@1x.png"/></button>
+          </div>
+          <p id="wiki-articles"></p>
+        </div>
+        <div id='randomSearch'>
+          <p>Or click this button to get a random article</p>
+          <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><button class="theButtons"><img src="https://res.abc.net.au/bundles/2.0.9/images/icon-search-grey@1x.png"/></button></a>
+        </div>
+      </div>
+    <div class='text-center' id="name">
+      Created by Ashley Hernandez
+    </div>
+    </div>
+    <script type='text/javascript' src='./index.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
