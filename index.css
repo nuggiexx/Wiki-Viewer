@@ -8,7 +8,7 @@
 #firstDiv {
   text-align: center;
   font-family: 'Century Gothic', sans-serif;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 #theW {
@@ -28,15 +28,15 @@ ul {
 input[type=text] {
   width: 20%;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid rgba(250, 240, 230, 0.815);
   border-radius: 4px;
   font-size: 16px;
   background-color: #FAF0E6;
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+  -webkit-transition: width 0.7s ease-in-out;
+  transition: width 0.7s ease-in-out;
 }
 
 input[type=text]:focus {
@@ -49,7 +49,8 @@ input[type=text]:focus {
 }
 
 .theButtons {
-  background-color: #FAF0E6;
+  background-color: rgba(233, 233, 233, 0.89);
+  border: rgb(117, 117, 117);
 }
 
 #name {
