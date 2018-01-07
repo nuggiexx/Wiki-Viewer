@@ -1,3 +1,10 @@
+
+$("#searchInfo").keyup(function(event) {
+  if (event.keyCode === 13) {
+      $("#myBtn").click();
+  }
+});
+
 function loadData() {
 
   let theSearch = $('#searchInfo').val();

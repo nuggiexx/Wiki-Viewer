@@ -5,6 +5,7 @@
     <title>Wiki viewer</title>
     <link rel='stylesheet' type='text/css' href='./index.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
   </head>
   <body>
     <div id='container'>
@@ -14,7 +15,7 @@
           <p id="wiki-header">You can make a search here</p>
           <div>
             <input type="text" id="searchInfo" name="search" placeholder="Search..."/>
-            <button class="theButtons" onclick=loadData()><img src="https://res.abc.net.au/bundles/2.0.9/images/icon-search-grey@1x.png"/></button>
+            <button id='myBtn' class="theButtons" onclick=loadData()><img src="https://res.abc.net.au/bundles/2.0.9/images/icon-search-grey@1x.png"/></button>
           </div>
           <p id="wiki-articles"></p>
         </div>
