@@ -5,29 +5,31 @@
     <title>Wiki viewer</title>
     <link rel='stylesheet' type='text/css' href='./index.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
   </head>
   <body>
+
     <div id='container'>
       <div id='firstDiv'>
-        <p id='theW'>Welcome to my Wikipedia search page</p>
+        <p id='theWelcome'>Welcome to my Wikipedia search page</p>
         <div id='manualSearch'>
-          <p id="wiki-header">You can make a search here</p>
+          <p>You can make a search here</p>
           <div>
             <input type="text" id="searchInfo" name="search" placeholder="Search..."/>
-            <button id='myBtn' class="theButtons" onclick=loadData()><img src="https://res.abc.net.au/bundles/2.0.9/images/icon-search-grey@1x.png"/></button>
+            <button id='myBtn' class="theButtons" onclick=loadData()><img src="./picture/searchIcon.png"/></button>
           </div>
           <p id="wiki-articles"></p>
         </div>
         <div id='randomSearch'>
-          <p>Or click this button for random knowledge</p>
-          <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><button class="theButtons"><img src="https://res.abc.net.au/bundles/2.0.9/images/icon-search-grey@1x.png"/></button></a>
+          <p>Click below if you dare</p>
+          <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><button class="theButtons"><img src="./picture/searchIcon.png"/></button></a>
         </div>
       </div>
-    <div class='text-center' id="name">
-      Created by Ashley Hernandez
+
+    <div id="name"><p>Created by Ashley Hernandez</p></div>
     </div>
-    </div>
+
     <script type='text/javascript' src='./index.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
